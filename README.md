@@ -1,5 +1,6 @@
 ### Upload a file to S3 bucket in AWS
 
+![Alt text](screenshot.png?raw=true "AWSS3Upload Screenshot")
 
 Simply enter the following in the build task:  
 **Bucket Name** - Name of S3 bucket. 
