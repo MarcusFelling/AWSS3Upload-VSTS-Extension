@@ -12,7 +12,7 @@
     "version": {
         "Major": 1,
         "Minor": 0,
-        "Patch": 2
+        "Patch": 3
     },
     "minimumAgentVersion": "1.91.0",
     "inputs": [
@@ -43,9 +43,9 @@
     ],
     "instanceNameFormat":  "Upload file to S3 bucket",
 	"execution":  {
-		  	"PowerShell3":  {
-					  "target":  "$(currentDirectory)\\S3UploadTask.ps1"
-		  			}
+					  "PowerShell3":  {
+										  "target":  "$(currentDirectory)\\S3UploadTask.ps1"
+									  }
                   },
     "messages": {
         "Upload": "Upload Complete",

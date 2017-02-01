@@ -16,7 +16,7 @@ Try {
         write-host "Loading AWSPowerShell module"
         Import-Module AWSPowerShell
     }   
-
+	
     # Begin Upload
     Write-Output "Upload File:$File to bucket:$BucketName Key:$Key"
     Write-Output "Running command: Write-S3Object -BucketName $BucketName -File $File -Key $Key"  
