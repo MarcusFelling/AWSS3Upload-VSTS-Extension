@@ -18,7 +18,7 @@ Try {
     }   
 	
     # Begin Upload
-    Write-Output "Upload File:$File to bucket:$BucketName Key:$Key"
+    Write-Output "Upload $File to $BucketName$Key"
     Write-Output "Running command: Write-S3Object -BucketName $BucketName -File $File -Key $Key"  
     Write-S3Object -BucketName $BucketName -File $File -Key $Key
     Write-Output "Upload complete!"
