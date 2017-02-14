@@ -2,19 +2,18 @@
     "manifestVersion": 1,
     "id": "AWSS3Upload",
     "name": "AWS S3 Upload",
-    "version": "1.0.5",
+    "version": "1.3.0",
     "publisher": "MFelling",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Build task to upload a file to an S3 bucket in AWS.",
+    "description": "Build task to upload a file to S3 bucket in AWS.",
     "categories": [
         "Build and release"
     ],
 	"galleryFlags": [
-		"Preview",
 		"Public"
 	],
 	"tags": [
@@ -33,7 +32,7 @@
         }
     },
     "icons": {
-        "default": "AWSS3Upload-icon.png"
+        "default": "icon.png"
     },
     "files": [
         {

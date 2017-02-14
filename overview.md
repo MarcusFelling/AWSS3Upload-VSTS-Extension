@@ -6,11 +6,13 @@ Enter the following in the build task:
 **Bucket Name** - Name of S3 bucket. 
 Example: MyS3Bucket 
 
-**File to upload** - Directory of file to upload. 
-Example: $(Build.ArtifactStagingDirectory)/examplefile.txt  
+**File(s) to upload** - Path to file or folder.
+File Example: $(Build.SourcesDirectory)/examplefile1.txt
+Folder Example: $(Build.ArtifactsStagingDirectory)/ExampleFolder/
 
 **Name of S3 Object** - Name and directory that the corresponding file will have in Amazon S3. 
-Example: folder/examplefile-uploaded.txt
+This field must be empty if uploading folder; File name will be the same as local.
+Example: S3FolderName/examplefile1.$(Build.BuildID)-uploaded.txt
 
 **Requirements**
 
