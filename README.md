@@ -13,8 +13,8 @@ File Example: $(Build.SourcesDirectory)/examplefile1.txt
 Folder Example: $(Build.ArtifactsStagingDirectory)/ExampleFolder/
 
 **Name of S3 Object** - Name and directory that the corresponding file will have in Amazon S3. 
-This field must be empty if uploading folder; File name will be the same as local.
 Example: S3FolderName/examplefile1.$(Build.BuildID)-uploaded.txt
+Note: This field is not available for folder uploads, file and folder names will be the same as local.
 
 **Requirements**
 
