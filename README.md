@@ -1,7 +1,7 @@
+![Alt text](https://github.com/MarcusFelling/vsts-tasks/blob/master/icon.png)
+
 ### Upload a file to S3 bucket in AWS
 **Pricing:** Free
-
-![Alt text](https://github.com/MarcusFelling/vsts-tasks/blob/master/icon.png)
 
 Enter the following in the build task:
 
