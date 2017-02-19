@@ -1,4 +1,4 @@
-![Alt text](https://github.com/MarcusFelling/vsts-tasks/blob/master/icon.png)
+VSTS Markplace: [https://marketplace.visualstudio.com/items?itemName=MFelling.AWSS3Upload](https://marketplace.visualstudio.com/items?itemName=MFelling.AWSS3Upload)
 
 ### Upload a file to S3 bucket in AWS
 **Pricing:** Free
