@@ -1,7 +1,7 @@
 ### Upload a file to S3 bucket in AWS
 **Pricing:** Free
 
-![Alt text](https://github.com/MarcusFelling/vsts-tasks/blob/master/screenshot.png?raw=true "AWSS3Upload Screenshot")
+![Alt text](https://github.com/MarcusFelling/vsts-tasks/blob/master/screenshot.png)
 
 Enter the following in the build task:
 
