@@ -14,8 +14,13 @@ Function FolderUpload($FileList) {
     Get-ChildItem -recurse $Files |
     ForEach {
         # Begin Upload
-        Write-S3Object -BucketName $BucketName -File $_.FullName -Key $_.Name
-        Write-Output "$_ Upload complete!"
+	If($_ -isnot [System.IO.DirectoryInfo]){
+	    #Let s3 key be the path to the recursed file
+            $keyPath = $_.FullName.Replace($Files,"")
+            # Begin Upload
+            Write-S3Object -BucketName $BucketName -File $_.FullName -Key $keyPath
+            Write-Output "$($_.FullName) Uploaded to $($keyPath)"
+        }
     }        
 }
 
